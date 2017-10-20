@@ -19,7 +19,7 @@ public class Demo {
 
 	@RequestMapping("/")
 	public String resource() {
-		return "";
+		return "index.html";
 	}
 
 	@RequestMapping(value = "/upload/batch", method = RequestMethod.POST)
